@@ -1,0 +1,67 @@
+[gd_scene load_steps=4 format=3 uid="uid://dagogmgjmpunf"]
+
+[ext_resource type="PackedScene" uid="uid://c2s81yoiwyn2m" path="res://player.tscn" id="1_6yws3"]
+[ext_resource type="PackedScene" uid="uid://cnoksuyyxnqlr" path="res://pine_tree.tscn" id="2_y6wxs"]
+[ext_resource type="PackedScene" uid="uid://vudcmgij64ac" path="res://cake.tscn" id="3_y6wxs"]
+
+[node name="Game" type="Node2D"]
+y_sort_enabled = true
+scale = Vector2(0.6, 0.6)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Player" parent="." instance=ExtResource("1_6yws3")]
+position = Vector2(960, 540)
+
+[node name="PineTree" parent="." instance=ExtResource("2_y6wxs")]
+position = Vector2(1495, 776.667)
+
+[node name="PineTree2" parent="." instance=ExtResource("2_y6wxs")]
+position = Vector2(1550, 785)
+
+[node name="PineTree3" parent="." instance=ExtResource("2_y6wxs")]
+position = Vector2(1450, 796.667)
+
+[node name="PineTree4" parent="." instance=ExtResource("2_y6wxs")]
+position = Vector2(348.333, 348.333)
+
+[node name="PineTree5" parent="." instance=ExtResource("2_y6wxs")]
+position = Vector2(1253.33, 533.333)
+
+[node name="PineTree6" parent="." instance=ExtResource("2_y6wxs")]
+position = Vector2(621.667, 911.667)
+
+[node name="PineTree7" parent="." instance=ExtResource("2_y6wxs")]
+position = Vector2(1701.67, 328.333)
+
+[node name="PineTree8" parent="." instance=ExtResource("2_y6wxs")]
+position = Vector2(811.667, 301.667)
+
+[node name="Cake" parent="." instance=ExtResource("3_y6wxs")]
+position = Vector2(560, 633.333)
+
+[node name="Cake2" parent="." instance=ExtResource("3_y6wxs")]
+position = Vector2(1195, 883.333)
+
+[node name="Cake3" parent="." instance=ExtResource("3_y6wxs")]
+position = Vector2(250, 885)
+
+[node name="Cake4" parent="." instance=ExtResource("3_y6wxs")]
+position = Vector2(211.667, 500)
+
+[node name="Cake5" parent="." instance=ExtResource("3_y6wxs")]
+position = Vector2(586.667, 161.667)
+
+[node name="Cake6" parent="." instance=ExtResource("3_y6wxs")]
+position = Vector2(1665, 533.333)
+
+[node name="Cake7" parent="." instance=ExtResource("3_y6wxs")]
+position = Vector2(901.667, 790)
+
+[node name="Cake8" parent="." instance=ExtResource("3_y6wxs")]
+position = Vector2(1261.67, 210)
+
+[node name="Cake9" parent="." instance=ExtResource("3_y6wxs")]
+position = Vector2(1651.67, 926.667)
